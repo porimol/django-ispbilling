@@ -37,7 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'internetbundles'
+    'internetbundles',
+    'clients',
 ]
 
 MIDDLEWARE_CLASSES = [
