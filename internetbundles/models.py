@@ -11,7 +11,7 @@ class SpeedBundles(models.Model):
 
     # __unicode__ on Python 2
     def __unicode__(self):
-        return format(self.bundle_name)
+        return self.bundle_name
 
     def __str__(self):
-        return  format(self.bundle_name)
+        return self.bundle_name
